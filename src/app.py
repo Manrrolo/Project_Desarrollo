@@ -16,7 +16,7 @@ server = app.server
 df = pd.DataFrame({
     "Fruit": ["Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas"],
     "Amount": [4, 1, 2, 2, 4, 5],
-    "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
+    "City": ["F", "F", "F", "M", "M", "M"]
 })
 
 fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
