@@ -1,38 +1,49 @@
-'''
- # @ Create Time: 2024-11-04 13:54:47.698557
-'''
 
-from dash import Dash, html, dcc
-import plotly.express as px
-import pandas as pd
+import dash
+from dash import dcc, html
+from dash.dependencies import Input, Output
+import dash_bootstrap_components as dbc
+from Pages import home, modelo, landingpage, creador
+import assets
 
-app = Dash(__name__, title="App")
+# Inicializar la app con los estilos personalizados y Bootstrap
+app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app.title = "Proyecto Final"
 
-# Declare server for Heroku deployment. Needed for Procfile.
-server = app.server
-
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
-df = pd.DataFrame({
-    "Fruit": ["Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas"],
-    "Amount": [4, 1, 2, 2, 4, 5],
-    "City": ["F", "F", "F", "M", "M", "M"]
-})
-
-fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
-
-app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
-
-    html.Div(children='''
-        Dash: A web application framework for your data.
-    '''),
-
-    dcc.Graph(
-        id='example-graph',
-        figure=fig
-    )
+# Layout base
+app.layout = html.Div([
+    dcc.Location(id='url', refresh=False),
+    dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(dcc.Link("Home", href="/", className="nav-link")),
+            dbc.NavItem(dcc.Link("Modelo", href="/modelo", className="nav-link")),
+            dbc.NavItem(dcc.Link("Landing Page", href="/landingpage", className="nav-link")),
+            dbc.NavItem(dcc.Link("Nosotros", href="/creador", className="nav-link")),
+        ],
+        brand="Proyecto Final",
+        color="dark",
+        dark=True,
+        fixed="top"
+    ),
+    html.Div(id='page-content', style={'margin-top': '70px'})  # Espaciado para la navbar
 ])
+
+# Callbacks para el ruteo
+@app.callback(
+    Output('page-content', 'children'),
+    Input('url', 'pathname')
+)
+def display_page(pathname):
+    if pathname == '/':
+        return home.layout
+    elif pathname == '/modelo':
+        return modelo.layout
+    elif pathname == '/landingpage':
+        return landingpage.layout
+    elif pathname == '/creador':
+        return creador.layout
+    else:
+        return html.H1("404: Página no encontrada", style={'textAlign': 'center'})
 
 if __name__ == '__main__':
     app.run_server(debug=True)
