@@ -5,7 +5,7 @@ from data_processing import load_and_clean_data
 # Cargar y limpiar datos
 step_data, stress_data, pedometer_data = load_and_clean_data(
     "./Data/step_daily_trend_numeric_summary.csv",
-    "./Data/stress_combined.csv",
+    "./Data/filtered_cleaned_com.samsung.shealth.stress.20241124164179_processed.csv",
     "./Data/tracker_pedometer_numeric_summary.csv"
 )
 
