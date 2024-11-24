@@ -1,5 +1,10 @@
-./venv
-__pycache__
+# Ignorar entornos virtuales
+/venv
+
+# Ignorar caché de Python
+__pycache__/
+
+# Ignorar carpetas de datos procesados
 CSV/
 jsons/
 Processed_CSV/
@@ -7,5 +12,7 @@ Processed_Data/
 Summary_Data/
 Final_Data/
 Output/
-./src/Data/stress_combined.csv
-./src/Data/filtered_cleaned_com.samsung.shealth.tracker.pedometer_day_summary.20241124164179_processed.csv
+
+# Ignorar archivos grandes específicos
+src/Data/stress_combined.csv
+src/Data/filtered_cleaned_com.samsung.shealth.tracker.pedometer_day_summary.20241124164179_processed.csv
