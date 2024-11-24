@@ -1,1 +1,9 @@
 ./venv
+__pycache__
+CSV/
+jsons/
+Processed_CSV/
+Processed_Data/
+Summary_Data/
+Final_Data/
+Output/

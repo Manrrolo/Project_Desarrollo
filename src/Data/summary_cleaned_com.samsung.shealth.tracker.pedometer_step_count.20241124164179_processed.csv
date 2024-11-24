@@ -1,0 +1,18 @@
+,count,unique,top,freq,mean,std,min,25%,50%,75%,max
+duration,9768.0,,,,30721.393837018837,20635.534752750802,0.0,10576.75,27006.5,53533.75,63194.0
+run_step,9768.0,,,,1.1528460278460277,9.902032666822704,0.0,0.0,0.0,0.0,170.0
+walk_step,9768.0,,,,52.410626535626534,36.52507196780119,0.0,17.0,44.0,90.0,132.0
+com.samsung.health.step_count.start_time,9768,6264,2024-11-24 15:40:00.000,2,,,,,,,
+com.samsung.health.step_count.sample_position_type,0.0,,,,,,,,,,
+com.samsung.health.step_count.custom,0.0,,,,,,,,,,
+com.samsung.health.step_count.update_time,9768,9766,2024-11-04 15:52:08.538,2,,,,,,,
+com.samsung.health.step_count.create_time,9768,9766,2024-11-04 15:52:08.538,2,,,,,,,
+com.samsung.health.step_count.count,9768.0,,,,54.56992219492219,37.8168654314689,0.0,18.0,47.0,93.25,170.0
+com.samsung.health.step_count.speed,9768.0,,,,1.3284744580620393,0.27079341459289774,0.0,1.1944444,1.2976817999999999,1.4166666,3.807387
+com.samsung.health.step_count.distance,9768.0,,,,40.94261736746622,28.94837442025253,0.0,13.51,35.160078,69.07000249999999,184.54
+com.samsung.health.step_count.calorie,9768.0,,,,2.208217546045147,1.6696088809374336,0.0,0.72,1.85,3.63,15.01
+com.samsung.health.step_count.time_offset,9768,2,UTC+0100,7501,,,,,,,
+com.samsung.health.step_count.deviceuuid,9768,2,BQ++8KZ2oB,5289,,,,,,,
+com.samsung.health.step_count.pkg_name,9768,1,com.sec.android.app.shealth,9768,,,,,,,
+com.samsung.health.step_count.end_time,9768,6264,2024-11-24 15:41:00.000,2,,,,,,,
+com.samsung.health.step_count.datauuid,9768,9768,d7cb882a-db9a-4c80-b70f-a09761515487,1,,,,,,,

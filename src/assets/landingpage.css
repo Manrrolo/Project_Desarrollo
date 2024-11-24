@@ -1,0 +1,38 @@
+
+.landing-page {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.landing-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.landing-page p {
+    font-size: 1.5rem;
+}
+
+.landing-page-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.landing-page-icons div {
+    width: 30%;
+    text-align: center;
+}
+
+.landing-page-icons img {
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

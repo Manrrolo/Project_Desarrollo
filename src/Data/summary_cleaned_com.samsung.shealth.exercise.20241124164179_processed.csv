@@ -1,0 +1,53 @@
+,count,unique,top,freq,mean,std,min,25%,50%,75%,max
+heart_rate_sample_count,829.0,,,,855.4282267792521,930.0133543918679,12.0,509.0,607.0,789.0,7154.0
+start_latitude,1.0,,,,-33.41757,,-33.41757,-33.41757,-33.41757,-33.41757,-33.41757
+mission_extra_value,4.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+program_schedule_id,0.0,,,,,,,,,,
+heart_rate_deviceuuid,0.0,,,,,,,,,,
+location_data_internal,8,8,2614580e-bdab-4e5b-9091-84721b6ea4ef.location_data_internal.json,1,,,,,,,
+custom_id,0.0,,,,,,,,,,
+additional_internal,3,3,16719b66-9df9-4d49-b11a-0c298f2c9918.additional_internal.json,1,,,,,,,
+com.samsung.health.exercise.duration,2047.0,,,,1010080.229604299,713911.8725626272,2000.0,688647.0,791851.0,1022957.0,7208946.0
+com.samsung.health.exercise.additional,3,3,024b5ab7-d3f1-4fdc-9974-accb2e2c0618.com.samsung.health.exercise.additional.json,1,,,,,,,
+com.samsung.health.exercise.create_sh_ver,599.0,,,,62683642.02003339,55605.043439836336,62600630.0,62650170.0,62670070.0,62720090.0,62820030.0
+com.samsung.health.exercise.mean_caloricburn_rate,0.0,,,,,,,,,,
+com.samsung.health.exercise.location_data,369,369,b1eb2033-8db7-4243-a390-51f792461cd0.com.samsung.health.exercise.location_data.json,1,,,,,,,
+com.samsung.health.exercise.start_time,2047,2047,2024-11-22 03:59:20.668,1,,,,,,,
+com.samsung.health.exercise.exercise_type,2047.0,,,,1063.075232046898,1182.9227972646806,0.0,1001.0,1001.0,1001.0,15006.0
+com.samsung.health.exercise.custom,0.0,,,,,,,,,,
+com.samsung.health.exercise.max_altitude,10.0,,,,553.473598,185.6646339273875,34.109,588.086,609.106225,617.3218825,663.932
+com.samsung.health.exercise.incline_distance,6.0,,,,307.99266666666665,410.40507899959846,0.0,40.51375,87.63550000000001,524.3177499999999,978.0
+com.samsung.health.exercise.mean_heart_rate,1585.0,,,,110.26813880126183,13.183797855315172,62.0,103.0,108.0,114.0,171.0
+com.samsung.health.exercise.count_type,1517.0,,,,30001.0,0.0,30001.0,30001.0,30001.0,30001.0,30001.0
+com.samsung.health.exercise.mean_rpm,0.0,,,,,,,,,,
+com.samsung.health.exercise.min_altitude,10.0,,,,534.660975,181.0980559829049,27.784,578.106,583.3823500000001,595.2160125,645.071
+com.samsung.health.exercise.modify_sh_ver,599.0,,,,62683642.02003339,55605.043439836336,62600630.0,62650170.0,62670070.0,62720090.0,62820030.0
+com.samsung.health.exercise.max_heart_rate,1585.0,,,,127.05804416403785,19.244680819882657,75.0,116.0,122.0,130.0,207.0
+com.samsung.health.exercise.update_time,2047,2047,2024-11-22 04:12:08.225,1,,,,,,,
+com.samsung.health.exercise.create_time,2047,2047,2024-11-22 04:12:08.225,1,,,,,,,
+com.samsung.health.exercise.max_power,0.0,,,,,,,,,,
+com.samsung.health.exercise.max_speed,1934.0,,,,1.7492498363495348,0.49729440818017384,0.7604073,1.4722223,1.5833334,1.7777778,5.389917
+com.samsung.health.exercise.mean_cadence,1486.0,,,,90.64424843001345,13.458773739093047,0.0,83.4822425,90.43727999999999,97.23876375,181.24777
+com.samsung.health.exercise.min_heart_rate,1585.0,,,,86.05173501577288,11.732437921259319,51.0,79.0,86.0,93.0,150.0
+com.samsung.health.exercise.count,1518.0,,,,1360.223978919631,719.5977002894124,0.0,1063.0,1178.5,1411.0,13023.0
+com.samsung.health.exercise.distance,1961.0,,,,1146.8278746761857,886.7384476470297,0.0,824.18,923.18,1194.26,13810.0
+com.samsung.health.exercise.max_caloricburn_rate,0.0,,,,,,,,,,
+com.samsung.health.exercise.calorie,2047.0,,,,104.79852421617001,120.20196694092802,0.0,65.0,76.0,99.0,1229.7699
+com.samsung.health.exercise.max_cadence,1485.0,,,,121.18030761885521,158.00029522615543,0.0,109.0,113.0,117.0,6122.4487
+com.samsung.health.exercise.decline_distance,6.0,,,,276.1706666666667,349.8942587049217,0.0,58.821000000000005,74.447,546.25,751.0
+com.samsung.health.exercise.vo2_max,2.0,,,,39.665000000000006,0.4596194077712549,39.34,39.502500000000005,39.665000000000006,39.8275,39.99
+com.samsung.health.exercise.time_offset,2047,6,UTC-0300,1035,,,,,,,
+com.samsung.health.exercise.deviceuuid,2047,9,BQ++8KZ2oB,843,,,,,,,
+com.samsung.health.exercise.max_rpm,0.0,,,,,,,,,,
+com.samsung.health.exercise.comment,0.0,,,,,,,,,,
+com.samsung.health.exercise.live_data,2040,2040,cdad6f0d-2e75-4f0f-9aac-0e24b50106e3.com.samsung.health.exercise.live_data.json,1,,,,,,,
+com.samsung.health.exercise.mean_power,0.0,,,,,,,,,,
+com.samsung.health.exercise.mean_speed,1959.0,,,,1.1934393175293514,0.27293784633628676,0.0,1.08274615,1.1826915,1.2872191,3.1727133
+com.samsung.health.exercise.pkg_name,2047,1,com.sec.android.app.shealth,2047,,,,,,,
+com.samsung.health.exercise.altitude_gain,9.0,,,,37.636357777777775,51.60833245602152,0.0,0.0,18.478,45.393,140.1584
+com.samsung.health.exercise.altitude_loss,4.0,,,,71.48428150000001,62.96124700576937,0.0,30.405507,73.111288,114.1900625,139.71455
+com.samsung.health.exercise.exercise_custom_type,0.0,,,,,,,,,,
+com.samsung.health.exercise.auxiliary_devices,0.0,,,,,,,,,,
+com.samsung.health.exercise.end_time,2047,2047,2024-11-22 04:10:52.515,1,,,,,,,
+com.samsung.health.exercise.datauuid,2047,2047,cdad6f0d-2e75-4f0f-9aac-0e24b50106e3,1,,,,,,,
+com.samsung.health.exercise.sweat_loss,2.0,,,,1459.0,35.35533905932738,1434.0,1446.5,1459.0,1471.5,1484.0
