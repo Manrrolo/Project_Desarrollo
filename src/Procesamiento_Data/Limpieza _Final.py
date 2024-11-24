@@ -118,3 +118,6 @@ for file_name in os.listdir(processed_data_folder):
             summary.to_csv(summary_file_path)
             
             print(f"Procesado: {file_name}")
+
+
+
