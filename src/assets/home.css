@@ -1,6 +1,5 @@
 
 .home-page {
-    background-color: #f8f9fa;
     padding: 20px;
 }
 
@@ -22,6 +21,18 @@
 }
 
 .graph-section h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.graph-section label {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.graph-section Dropdown{
     text-align: center;
     margin-bottom: 10px;
     color: #333333;
