@@ -2,7 +2,7 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
-from Pages import home, stress, sleep, oxygen, weather, modelo, landingpage, creador, activity
+from Pages import home, stress, sleep, oxygen, weather, modelo, landingpage, creador
 import assets
 
 # Inicializar la app con Bootstrap y estilos
