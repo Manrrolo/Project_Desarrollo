@@ -66,7 +66,7 @@ def load_and_clean_data(*file_paths):
 
             elif "weather" in file_name:
                 # Limpieza de Weather
-                df_clean = df[['start_time', 'temperature', 'humidity', 'wind_speed']]
+                df_clean = df[['start_time', 'temperature', 'humidity', 'wind_speed', 'phrase']]
                 df_clean.rename(columns={
                     'start_time': 'timestamp'
                 }, inplace=True)
@@ -92,9 +92,9 @@ def load_and_clean_data(*file_paths):
 
             elif "activity.day_summary" in file_name:
                 # Limpieza de Activity Day Summary
-                df_clean = df[['exercise_time', 'step_count', 'active_time', 'calorie', 'distance', 'day_time']]
+                df_clean = df[['exercise_time', 'step_count', 'active_time', 'calorie', 'goal', 'distance', 'create_time']]
                 df_clean.rename(columns={
-                    'day_time': 'timestamp',
+                    'create_time': 'timestamp',
                     'calorie': 'calories'
                 }, inplace=True)
                 df_clean['timestamp'] = pd.to_datetime(df_clean['timestamp'], errors='coerce')
